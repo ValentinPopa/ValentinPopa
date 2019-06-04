@@ -22,14 +22,19 @@ a:hover {
   color: #565656;
 }
 
-.container {
+main {
   display: grid;
-  overflow: hidden;
-  width: 100vw;
+  grid-template-rows: 1fr;
   height: 100%;
   background-image: url("https://images.pexels.com/photos/509922/pexels-photo-509922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-position-x: center;
+}
+
+.container {
+  display: grid;
+  overflow: hidden;
+  width: 100vw;
   grid-template-columns: 1fr;
   grid-template-rows: 60vh 40vh;
 }
@@ -152,7 +157,7 @@ a:hover {
 .project-img {
   padding-top: 10px;
   max-width: 70%;
-  height: 15%;
+  height: 20%;
   margin: 0 auto;
 }
 
@@ -205,7 +210,6 @@ hr {
 
 .profile-pic {
   width: 50px;
-  /*height: 100px;*/
   border-radius: 10px;
 }
 
